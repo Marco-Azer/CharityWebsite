@@ -171,7 +171,7 @@ $(function(){
 
             $.ajax({
                 type: "POST",
-                url: 'http://35.162.118.191:9000/email',
+                url: 'http://35.162.118.191:80/email',
                 data: {
                     'name': $('#name').val(),
                     'email': $('#email').val(),
